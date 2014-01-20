@@ -1,0 +1,216 @@
+body {
+ 
+ font-family:'Lato', 'Helvetica', Arial, Sans-Serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+ font-family:'Lato', 'Helvetica', Arial, Sans-Serif;
+
+}
+
+h1, h2 {
+
+ color:#ffffff;
+
+}
+
+h1 {
+
+ font-size:70px; /* 4.375em */
+ font-weight:bold;
+
+}
+
+
+h2 {
+
+ color:#2c3e50;
+ font-size:20px; /* 1.25em */
+ font-weight:normal;
+
+}
+
+h3 {
+ 
+ color:#2c3e50;
+ font-size:18px; /* 1.125em */
+ font-weight:bold;
+
+}
+
+p {
+
+ color:#333;
+
+}
+
+div#header {
+
+background-color: #2c3e50;
+
+}
+
+h1.logo {
+
+  float:left;
+}
+
+nav {                 
+  display:inline;
+  float: right; 
+}
+
+nav ul li {
+  display:inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  color:#fff!important;
+}
+
+div#features {
+
+background-color: #fff;
+text-align: center;
+
+}
+div#marketing {
+  text-align: center;  
+} 
+p.marketing {
+  font-size: 20px;
+  color:#fff;
+}
+
+div.icon {
+  background-color: #fc4349;
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+  margin:40px auto 0;
+}
+div.icon img {
+  margin:0 auto;
+  display:block;
+  padding-top: 50px;
+}
+
+div#middle_bar {
+
+  background-color: #d7dadb;
+
+}
+
+
+div#about {
+
+  background-color: #6dbcdb;
+  padding-top: 16px;
+}
+
+
+div#footer {
+
+  background-color: #2c3e50;
+  
+}
+
+
+div#screengrab img {
+  display:block;
+  margin:20px auto -20px;
+
+}
+img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+
+
+header h1 {
+    display:block;
+    text-align: center;
+    margin-top:20px;
+}
+
+header nav {
+    display:block;
+}
+
+header nav ul {
+    float:none;
+    text-align: left;
+}
+
+header nav ul li {
+    display:inline-block;
+}
+
+header nav ul li.selected {
+    border-bottom: ;
+    padding:5px 0;
+    background-color:#6dbcdb;
+}
+
+div#marketing {
+    margin-top: 20px;
+}
+div#marketing h1 {
+    font-size:45px;
+    margin-bottom: 5px;
+}
+div#marketing h2 {
+    line-height: 1.2;
+}    
+
+/***FIRST STYLE THE BUTTON***/
+input#button{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#fc4349; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:1.1em;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#button:hover, input#button:focus{
+background-color :#399630; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+.browser-window {
+  margin:30px 0 -5px 0;
+}
+
+#middle_bar h3 {
+  margin:50px 0 0;
+}
+div#footer {
+  padding:10px 0;
+}
+#footer p {
+  color:#fff;
+}
+
+.aligncenter {
+  text-align: center;
+}
+.alignright {
+  text-align: right;
+}
+
